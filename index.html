@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/less/style.css">
+	<title>Crattizen</title>
+</head>
+<body>
+	<div class="actionbar">
+		<div class="left">
+			Workspace
+		</div>
+		<div class="right">
+			Craftizen
+			<button>icon1</button>
+			<button>icon2</button>
+		</div>
+	</div>
+	<div class="popup_background"></div>
+	<div class="container">
+		<div class="lefttab">
+			<div class="lefttop">
+				<img src="">
+				<p>User 1</p>
+				<p>Project Manager</p>
+				<button>New...</button>
+			</div>
+			<div class="leftlist">
+				<ul>
+					<li id="craft1" class="craft">
+						<div class="craft_item">
+							<button>icon</button>
+							<span class="craft_text">Craft A</span>
+						</div>
+					</li>
+					<li id="craft2" class="craft dropdown">
+						<div class="craft_item">
+							<button>icon</button>
+							<span class="craft_text">Craft B</span>
+						</div>
+						<ul class="sublist">
+							<li id="craft_item1" onClick="subitem_click(this)">Information</li>
+							<li id="craft_item2" onClick="subitem_click(this)">Craft Designer</li>
+							<li id="craft_item3" class="seleted" onClick="subitem_click(this)">Workstation</li>
+							<li id="craft_item4" onClick="subitem_click(this)">WorkBoard</li>
+						</ul>
+						<button class="right">icon</button>
+					</li>
+					<li id="craft3" class="craft">
+						<div class="craft_item">
+							<button>icon</button>
+							<span class="craft_text">Craft C</span>
+						</div>
+					</li>
+					<li id="craft4" class="craft">
+						<div class="craft_item">
+							<button>icon</button>
+							<span class="craft_text">Craft D</span>
+						</div>
+					</li>
+				</ul>
+				<div class="myrepo">
+					<button>icon</button>
+					<span class="myrepo_text">My Repository</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="contents">
+
+			<div class="contentstop">
+			    <p class="page_sub">Workstation > application</p>
+				<p class="page_name">Workstation</p>
+
+			    <div class="nav-menu">
+			        <ul>
+			            <li class="m"><a href="#section-01" class="menu-01">MENU1</a></li>
+			            <li class="m"><a href="#section-02" class="menu-02">MENU2</a></li>
+			            <li class="m"><a href="#section-03" class="menu-03">MENU3</a></li>
+			            <li class="m"><a href="#section-04" class="menu-04">MENU4</a></li>
+			            <li class="btn-top"><a href="#section-01" class="menu-04">BTN-TOP</a></li>
+			        </ul>
+			    </div>
+			</div>
+
+			<div class="contentsbody">
+				<div class="header">
+				    <h1>header</h1>
+				</div>
+				<div id="contents">
+
+				    <div class="section-01 scroll">
+
+						<table style="WIDTH: 800px; BACKGROUND-COLOR: #ffffff" cellSpacing=0 cellPadding=0 width=800 border-collapse: collapse border=1 solid black>
+							<tbody>
+								<tr>
+									<td style="HEIGHT: 20px; WIDTH: 800px" height=20 width=800 colSpan=5>
+										<p>H/W Board</p>
+									</td>
+								</tr>
+								<tr>
+									<td style="HEIGHT: 90px; WIDTH: 160px" height=84 rowSpan=2 width=160>
+										<p>ARTIK</p>
+									</td>
+									<td style="HEIGHT: 60px" height=55 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+									<td style="HEIGHT: 60px" height=55 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+									<td style="HEIGHT: 60px" height=55 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+									<td style="HEIGHT: 60px" height=55 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+								</tr>
+								<tr>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group1' value='artik0' />ARTIK 0
+									</td>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group1' value='artik5' />ARTIK 5
+									</td>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group1' value='artik7' />ARTIK 7
+									</td>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group1' value='artik10' />ARTIK 10
+									</td>
+								</tr>
+								<tr>
+									<td style="HEIGHT: 90px; WIDTH: 160px" height=99 rowSpan=2 width=160>
+										<p>Raspberry Pi</p>
+									</td>
+									<td style="HEIGHT: 60px" height=70 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+									<td style="HEIGHT: 60px" height=70 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+									<td style="HEIGHT: 60px" height=70 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+									<td style="HEIGHT: 60px" height=70 width=160>
+										<img src="images/ARTIK.jpg">
+									</td>
+								</tr>
+								<tr>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group2' value='Pi Zero' />Pi Zero
+									</td>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group2' value='Pi A' />Pi A
+									</td>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group2' value='Pi 2' />Pi 2
+									</td>
+									<td height=30 width=160>
+										<input TYPE='radio' name='group2' value='Pi 3' />Pi 3
+									</td>
+								</tr>
+							</tbody>
+						</table>
+				    </div>
+
+				    <div class="section-02 scroll">
+
+						<table style="WIDTH: 800px; BACKGROUND-COLOR: #ffffff" cellSpacing=0 cellPadding=0 width=800 border=1>
+							<tbody>
+								<tr>
+									<td style="HEIGHT: 20px; WIDTH: 800px" height=20 width=800 colSpan=2>
+										<p>Theme</p>
+									</td>
+								</tr>
+								<tr>
+									<td style="HEIGHT: 200px; WIDTH: 400px" height=20 width=400>
+										<ul class="applist">
+										<!--
+											<asp:RadioButton ID="card" runat="server" GroupName="orderGroup" Checked="true" onclick="javascript:contentsView(card);"/> ¿©ÀüÈ÷ ¾Æ¸§´Ù¿îÁö
+											<asp:RadioButton ID="cardDiv" runat="server" GroupName="orderGroup" onclick="javascript:contentsView(cardDiv);"/> »ç¶ûÇÑ´Ù´Â ÈçÇÑ ¸»
+											<asp:RadioButton ID="bank" runat="server" GroupName="orderGroup" onclick="javascript:contentsView(bank);"/> ³»°¡ ³ÊÀÇ °ç¿¡ Àá½Ã »ì¾Ò´Ù´Â°É
+										-->
+											<li id="application1"><input TYPE='radio' name='group3' value='IoT_Headless' onclick="div_show(this.value, 'IoT_Headless')" />IoT Headless Minimal </li>
+											<li id="application2"><input TYPE='radio' name='group3' value='IoT_Headed' onclick="div_show(this.value, 'IoT_Headed')"/>IoT Headed Minimal</li>
+											<li id="application3"><input TYPE='radio' name='group3' value='Headless' onclick="div_show(this.value, 'Headless')"/>Headless Speaker</li>
+
+										</ul>
+
+									</td>
+									<td style="HEIGHT: 200px; WIDTH: 400px" height=20 width=400>
+										<div id = "IoT_Headless" style="display:none;">
+											<table>
+												<tr>
+													<img src="images/ARTIK.jpg">
+												</tr>
+												<tr>
+													<p>IoT Headless Minimal</p>
+													<p>TEST1 TEST1 TEST1</p>
+												</tr>
+											</table>
+										</div>
+										<div id = "IoT_Headed" style="display:none;">
+											<table>
+												<tr>
+													<img src="images/ARTIK.jpg">
+												</tr>
+												<tr>
+													<p>IoT Headless Minimal</p>
+													<p>TEST2 TEST2 TEST2</p>
+												</tr>
+											</table>
+										</div>
+										<div id = "Headless" style="display:none;">
+											<table>
+												<tr>
+													<img src="images/ARTIK.jpg">
+												</tr>
+												<tr>
+													<p>Headless</p>
+													<p>TEST3 TEST3 TEST3</p>
+												</tr>
+											</table>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+				    </div>
+
+				    <div class="section-03 scroll">
+				        <h2>¼½¼Ç 3</h2>
+				    </div>
+
+				    <div class="section-04 scroll">
+				        <h2>¼½¼Ç 4</h2>
+				    </div>
+
+				</div>
+
+
+
+				<div class="dinfo">
+					<p class="dinfo_name">Connected Device Information</p>
+					<button id="ddetect">detect</button>
+					<div class="ddetails">
+						<img src="">
+						<div class="dsummary">
+							<table>
+								<tr>
+									<td class="device_subject">H/W Model :</td>
+									<td>Rasberry PI3</td>
+								</tr>
+								<tr>
+									<td class="device_subject">Theme :</td>
+									<td>Headless</td>
+								</tr>
+								<tr>
+									<td class="device_subject">Image Package Version :</td>
+									<td>Tizen OS 3.1.2</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="dapp">
+					<table>
+						<tr>
+							<th>Application List</th>
+							<th>Application Information</th>
+						</tr>
+						<tr>
+							<td width="40%">
+								<ul class="applist">
+									<li id="application1"><button>icon</button><span class="app_name">Red_LED_Application.xxx</span></li>
+									<li id="application2" class="selected"><button>icon</button><span class="app_name">Green_LED_Application.xxx</span></li>
+									<li id="application3"><button>icon</button><span class="app_name">Wifi_Test_Application.xxx</span></li>
+								</ul>
+							</td>
+							<td width="60%">
+								<table class="appinfo">
+									<tr>
+										<td class="app_subject" width="20%">Version :</td>
+										<td id="app_name">Green_LED_Application_1.03</td>
+									</tr>
+									<tr>
+										<td class="app_subject">Last Update :</td>
+										<td id="app_date">dd.mm.yy</td>
+									</tr>
+									<tr>
+										<td class="app_subject">Discription :</td>
+										<td id="app_summary">Blah blah blah blah...</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+					</table>
+
+				</div>
+
+				<div class="launch_container">
+					<button id="launch_button">Launch</button>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+
+	<script type="text/javascript">
+		function sendCommand(cmd) {
+			var method = "POST";
+			var url = "http://" + $(location).attr('host') + ":3000/tic_api";
+			console.log("url = " + url);
+			/*
+			var data = {
+				"command": cmd
+			};
+			*/
+
+			var data = new Object();
+
+			data.command = cmd;
+
+			$.ajax({
+				type: method,
+				url: url,
+				data: JSON.stringify(data),
+				dataType: "text",
+				success: function(res) {
+					console.log("res = " + res);
+				},
+				error: function(xhr, status, error) {
+					console.log("error = " + error);
+				}
+			});
+		}
+
+
+		$("#launch_button").on('click', function() {
+			var cur = $(this).text()
+			if (cur == "Launch") {
+				$(this).text("Stop");
+				sendCommand("start");
+			} else {
+				$(this).text("Launch");
+				sendCommand("stop");
+			}
+
+		});
+
+	</script>
+	<script>
+		function div_show(s,ss) {
+			if (s == "IoT_Headless") {
+				document.getElementById('IoT_Headless').style.display = "";
+				document.getElementById('IoT_Headed').style.display = "none";
+				document.getElementById('Headless').style.display = "none";
+			}else if (s == "IoT_Headed") {
+				document.getElementById('IoT_Headless').style.display = "none";
+				document.getElementById('IoT_Headed').style.display = "";
+				document.getElementById('Headless').style.display = "none";
+			}else if (s == "Headless") {
+				document.getElementById('IoT_Headless').style.display = "none";
+				document.getElementById('IoT_Headed').style.display = "none";
+				document.getElementById('Headless').style.display = "";
+			}else {
+				document.getElementById('IoT_Headless').style.display = "none";
+				document.getElementById('IoT_Headed').style.display = "none";
+				document.getElementById('Headless').style.display = "none";
+			}
+		}
+	</script>
+</body>
+</html>
